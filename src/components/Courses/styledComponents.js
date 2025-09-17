@@ -137,7 +137,7 @@ export const ExploreButton = styled.div`
   text-align: center;
   padding: 8px;
   cursor: pointer;
-  margin-top: auto;
+  margin-top: 16px;
 `;
 
 export const PrizeContainer = styled.div`

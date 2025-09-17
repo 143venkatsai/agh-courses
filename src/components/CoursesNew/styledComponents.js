@@ -135,7 +135,7 @@ export const ExploreButton = styled.div`
   background-color: #fc2947;
   border-radius: 6px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 16px;
   padding: 8px;
   cursor: pointer;
 `;
