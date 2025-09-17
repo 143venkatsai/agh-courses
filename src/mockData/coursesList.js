@@ -34,7 +34,7 @@ export const coursesList = [
   {
     id: 2,
     courseImage: courseImage2,
-    vectorImage: vector2,
+    vectorImage: vector3,
     courseName: "Aptitude Crash Course",
     shortName: "Aptitude",
     rating: 4.4,
@@ -48,7 +48,7 @@ export const coursesList = [
   {
     id: 3,
     courseImage: courseImage3,
-    vectorImage: vector3,
+    vectorImage: vector4,
     courseName: "Technical DSA (Java)",
     shortName: "Technical DSA (Java)",
     rating: 4.4,
@@ -62,7 +62,7 @@ export const coursesList = [
   {
     id: 4,
     courseImage: courseImage4,
-    vectorImage: vector4,
+    vectorImage: vector5,
     courseName: "Full Stack Web Development",
     shortName: "Full Stack",
     rating: 4.4,
@@ -77,7 +77,7 @@ export const coursesList = [
   {
     id: 5,
     courseImage: courseImage5,
-    vectorImage: vector5,
+    vectorImage: vector2,
     courseName: "React Crash Course",
     shortName: "React",
     rating: 4.4,

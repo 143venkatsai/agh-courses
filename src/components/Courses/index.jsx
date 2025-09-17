@@ -47,42 +47,44 @@ const Courses = () => {
                   </PrizeContainer>
                 </div>
                 <CourseDetails>
-                  <CourseTitle>{course.courseName}</CourseTitle>
-                  <RatingContainer>
-                    <Stars>
-                      {[...Array(starsLength)].map((_, index) => (
-                        <FaStar
-                          key={index}
-                          style={{
-                            color: "#FFD95A",
-                            height: "16px",
-                            width: "16px",
-                            marginRight: "2px",
-                          }}
-                        />
-                      ))}
-                    </Stars>
-                    <RatingInfo>{course.rating}</RatingInfo>
-                  </RatingContainer>
-                  <InfoContainer>
-                    <PiClock className="icon" />
-                    <SpanContainer>
-                      <span className="span-left">Duration :</span>
-                      <span className="span-right">{course.duration}</span>
-                    </SpanContainer>
-                  </InfoContainer>
-                  <InfoContainer>
-                    <IoPeopleOutline className="icon" />
-                    <SpanContainer>
-                      <span className="span-left">Recommended for</span>
-                      <span className="span-right">
-                        {course.recommendedFor}
-                      </span>
-                    </SpanContainer>
-                  </InfoContainer>
+                  <>
+                    <CourseTitle>{course.courseName}</CourseTitle>
+                    <RatingContainer>
+                      <Stars>
+                        {[...Array(starsLength)].map((_, index) => (
+                          <FaStar
+                            key={index}
+                            style={{
+                              color: "#FFD95A",
+                              height: "16px",
+                              width: "16px",
+                              marginRight: "2px",
+                            }}
+                          />
+                        ))}
+                      </Stars>
+                      <RatingInfo>{course.rating}</RatingInfo>
+                    </RatingContainer>
+                    <InfoContainer>
+                      <PiClock className="icon" />
+                      <SpanContainer>
+                        <span className="span-left">Duration :</span>
+                        <span className="span-right">{course.duration}</span>
+                      </SpanContainer>
+                    </InfoContainer>
+                    <InfoContainer>
+                      <IoPeopleOutline className="icon" />
+                      <SpanContainer>
+                        <span className="span-left">Recommended for</span>
+                        <span className="span-right">
+                          {course.recommendedFor}
+                        </span>
+                      </SpanContainer>
+                    </InfoContainer>
+                  </>
                   <Link
                     to={`/course/${course.id}`}
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: "none", marginTop: "auto" }}
                   >
                     <ExploreButton>Explore</ExploreButton>
                   </Link>

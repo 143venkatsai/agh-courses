@@ -24,6 +24,7 @@ export const CourseItemLeftContainer = styled.div`
   order: 1;
   @media (min-width: 1024px) {
     order: 0;
+    width: 50%;
   }
 `;
 
@@ -182,7 +183,7 @@ export const CourseVectorImage = styled.img`
   order: 0;
   @media (min-width: 1024px) {
     order: 1;
-    height: 450px;
-    width: 650px;
+    height: auto;
+    width: 518px;
   }
 `;

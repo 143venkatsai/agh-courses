@@ -20,6 +20,8 @@ export const CourseHeading = styled.h1`
   font-family: "Work Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: #000;
   @media (min-width: 1024px) {
     font-size: 32px;
@@ -38,7 +40,7 @@ export const CoursesList = styled.ul`
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 `;
 
@@ -63,6 +65,7 @@ export const CourseDetails = styled.div`
   display: flex;
   flex-direction: column;
   padding: 16px 24px;
+  flex: 1;
 `;
 
 export const CourseTitle = styled.h1`
@@ -132,7 +135,7 @@ export const ExploreButton = styled.div`
   background-color: #fc2947;
   border-radius: 6px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
   padding: 8px;
   cursor: pointer;
 `;
@@ -144,8 +147,8 @@ export const PrizeContainer = styled.div`
   font-weight: 600;
   font-size: 24px;
   border-top: 1px solid #e5e7eb;
-  padding-top: 16px;
-  margin-top: 10px;
+  padding-top: 10px;
+  margin-top: 8px;
 
   .batch {
     color: #757575;

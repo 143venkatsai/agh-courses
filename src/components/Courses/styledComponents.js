@@ -39,7 +39,7 @@ export const CoursesList = styled.ul`
   }
 
   @media (min-width: 1024px) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 `;
 
@@ -53,7 +53,7 @@ export const CourseItem = styled.li`
 `;
 
 export const CourseImage = styled.img`
-  height: 200px;
+  height: 180px;
   width: 100%;
   object-fit: cover;
   border-top-left-radius: 12px;
@@ -65,6 +65,7 @@ export const CourseDetails = styled.div`
   display: flex;
   flex-direction: column;
   padding: 16px 24px;
+  flex: 1;
 `;
 
 export const CourseTitle = styled.h3`
@@ -134,9 +135,9 @@ export const ExploreButton = styled.div`
   background-color: #fc2947;
   border-radius: 6px;
   text-align: center;
-  margin-top: 10px;
   padding: 8px;
   cursor: pointer;
+  margin-top: auto;
 `;
 
 export const PrizeContainer = styled.div`
