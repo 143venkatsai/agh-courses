@@ -18,7 +18,7 @@ export const CoursesContainer = styled.div`
 
 export const CourseHeading = styled.h1`
   font-family: "Work Sans", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   margin-top: 0px;
   margin-bottom: 0px;

@@ -83,7 +83,7 @@ const CourseItem = () => {
           <ButtonsContainer>
             <Download>Download</Download>
             <Enroll>
-              Get Enrolled <FaArrowRightLong />
+              Get Enrolled <FaArrowRightLong style={{ marginLeft: "8px" }} />
             </Enroll>
           </ButtonsContainer>
         </CourseItemLeftContainer>

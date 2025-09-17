@@ -114,10 +114,13 @@ export const SpanContainer = styled.div`
 export const Description = styled.p`
   font-family: "Work Sans", snas-serif;
   color: #262626;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin: 24px 0px;
   line-height: 150%;
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }
 `;
 
 export const PrizeContainer = styled.div`
@@ -137,9 +140,10 @@ export const ButtonsContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 24px;
-  gap: 24px;
+  gap: 16px;
   @media (min-width: 1024px) {
     flex-direction: row;
+    gap: 24px;
   }
 `;
 
@@ -152,7 +156,7 @@ export const Download = styled.button`
   font-weight: 500;
   cursor: pointer;
   border-radius: 8px;
-  height: 56px;
+  height: 48px;
   width: 100%;
   @media (min-width: 786px) {
     height: 56px;
@@ -161,6 +165,9 @@ export const Download = styled.button`
 `;
 
 export const Enroll = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fc2947;
   color: #fff;
   border: none;
@@ -169,8 +176,9 @@ export const Enroll = styled.button`
   font-weight: 500;
   cursor: pointer;
   border-radius: 8px;
-  height: 56px;
+  height: 48px;
   width: 100%;
+
   @media (min-width: 786px) {
     height: 56px;
     width: 216px;
@@ -178,7 +186,7 @@ export const Enroll = styled.button`
 `;
 
 export const CourseVectorImage = styled.img`
-  height: 300px;
+  height: auto;
   width: 100%;
   order: 0;
   @media (min-width: 1024px) {
