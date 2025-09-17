@@ -56,7 +56,6 @@ export const CourseImage = styled.img`
   object-fit: cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  position: relative;
 `;
 
 export const CourseDetails = styled.div`
@@ -65,7 +64,7 @@ export const CourseDetails = styled.div`
   padding: 16px 24px;
 `;
 
-export const CourseTitle = styled.h3`
+export const CourseTitle = styled.h1`
   font-family: "Reddit Sans", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -132,23 +131,25 @@ export const ExploreButton = styled.div`
   background-color: #fc2947;
   border-radius: 6px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
   padding: 8px;
   cursor: pointer;
 `;
 
 export const PrizeContainer = styled.div`
-  background: linear-gradient(to top right, #ff8899, #fc2947);
-  height: 42px;
-  width: 106px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  color: #fff;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Reddit Sans", sans-serif;
   font-weight: 600;
   font-size: 24px;
-  position: absolute;
-  top: 16px;
-  z-index: 2;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 16px;
+  margin-top: 10px;
+
+  .batch {
+    color: #757575;
+    font-size: 14px;
+    margin-left: 4px;
+    font-weight: normal;
+  }
 `;

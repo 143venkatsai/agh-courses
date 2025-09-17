@@ -27,6 +27,7 @@ export const coursesList = [
     duration: "3 Months",
     recommendedFor: "Final Year",
     prize: "5,999",
+    batch: "FOR FULL BATCH",
     description:
       "A short-term, intensive program designed to prepare students for placement drives. The course covers Aptitude (quantitative, logical reasoning, verbal ability) along with Technical fundamentals (DSA, core CS concepts, coding practice, and interview prep). ",
   },
@@ -40,6 +41,7 @@ export const coursesList = [
     duration: "3 Months",
     recommendedFor: "Final Year",
     prize: "3,499",
+    batch: "FOR FULL BATCH",
     description:
       "This module focuses on quantitative aptitude, logical reasoning, and verbal ability to strengthen problem-solving skills. Students will practice a variety of real-time problems to improve speed and accuracy. It builds the confidence required to crack aptitude rounds.",
   },
@@ -53,6 +55,7 @@ export const coursesList = [
     duration: "3 Months",
     recommendedFor: "Final Year",
     prize: "3,499",
+    batch: "FOR FULL BATCH",
     description:
       "The technical module covers core Java fundamentals along with data structures and algorithms. Students will solve coding problems step by step with an interview-oriented approach. The aim is to sharpen technical skills and prepare for coding and technical interview rounds.",
   },
@@ -66,6 +69,7 @@ export const coursesList = [
     duration: "3 Months",
     recommendedFor: "All Years",
     prize: "4,999",
+    batch: "FOR FULL BATCH",
     description:
       "This module introduces both frontend and backend development with React, Node.js, and databases. Students will work on building complete, real-world projects from scratch. The focus is on gaining hands-on experience to improve placement readiness.",
   },
@@ -80,6 +84,7 @@ export const coursesList = [
     duration: "3 Months",
     recommendedFor: "All Years",
     prize: "3,999",
+    batch: "FOR FULL BATCH",
     description:
       "The React Crash Course is a fast-track program designed to build strong fundamentals in React. It covers components, state management, hooks, routing, and API integration with hands-on projects. By the end, learners can confidently build and deploy.",
   },
@@ -94,6 +99,7 @@ export const coursesList = [
     duration: "3 Months",
     recommendedFor: "All Years",
     prize: "3,999",
+    batch: "FOR FULL BATCH",
     description:
       "This module covers the fundamentals of server-side development using Node.js. Students will learn how to build REST APIs, handle requests, and connect with databases. It focuses on creating scalable backends that power real-world web applications.",
   },
@@ -107,6 +113,7 @@ export const coursesList = [
     duration: "1 Year",
     recommendedFor: "Pre Final Year",
     prize: "11,999",
+    batch: "FOR FULL BATCH",
     description:
       "The course covers all key areas of aptitude including quantitative ability, logical reasoning, and verbal skills. Students practice a wide range of problems with shortcuts and techniques to improve speed and accuracy. It provides complete preparation to confidently clear aptitude tests.",
   },
@@ -120,6 +127,7 @@ export const coursesList = [
     duration: "1 Year",
     recommendedFor: "Pre Final Year",
     prize: "11,999",
+    batch: "FOR FULL BATCH",
     description:
       "The course focuses on core Java concepts, data structures, and algorithms to build strong programming fundamentals. Students practice coding problems with step-by-step logic and interview-based questions. It ensures complete preparation to excel in coding rounds, technical tests.",
   },
