@@ -4,13 +4,14 @@ export const CoursesContainer = styled.div`
   display: flex;
   flex-direction: column;
   padding: 0 12px;
-
+  gap: 24px;
   @media (min-width: 768px) {
     padding: 16px 24px;
   }
 
   @media (min-width: 1024px) {
     padding: 32px 100px;
+    gap: 32px;
   }
 `;
 
@@ -18,11 +19,11 @@ export const CourseHeading = styled.h1`
   font-family: "Work Sans", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  padding-bottom: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: #000;
   @media (min-width: 1024px) {
     font-size: 32px;
-    padding-bottom: 32px;
   }
 `;
 
@@ -78,7 +79,7 @@ export const CourseTitle = styled.h3`
 export const RatingContainer = styled.div`
   display: flex;
   align-items: center;
-  margin-top: -5px;
+  margin-top: -10px;
   margin-bottom: -5px;
 `;
 
