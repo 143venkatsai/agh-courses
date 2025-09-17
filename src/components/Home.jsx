@@ -6,8 +6,8 @@ import CoursesNew from "./CoursesNew";
 const Home = () => {
   return (
     <>
-      {/* <Courses /> */}
-      <CoursesNew />
+      <Courses />
+      {/* <CoursesNew /> */}
     </>
   );
 };
